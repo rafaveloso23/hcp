@@ -1,1 +1,2 @@
 #the change in tfstate will always occurs before any interaction, for this reason we are not able to import a resource before the change.
+#the import behavior only occour in the first execution, otherwise you will need to destroy and run again
