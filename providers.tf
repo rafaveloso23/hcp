@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "tfe" {
-  token = "hLwMEHLg4BGDTQ.atlasv1.qoFtHi8TMGsMk7EbMyJFqZzk94draNsxMALbx0nOWUy21y77gJgDOmygZZTagI5vwJI"
+  token = var.token
 }

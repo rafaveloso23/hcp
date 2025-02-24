@@ -15,3 +15,8 @@ variable "organization_name" {
   type        = string
   default     = "veloso"
 }
+
+variable "token" {
+  description = "The token to authenticate with Terraform Cloud"
+  type        = string
+}

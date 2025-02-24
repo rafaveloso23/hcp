@@ -11,3 +11,4 @@
 .terraform/environment
 .terraform.lock.hcl
 .terraform*
+terraform.tfvars
