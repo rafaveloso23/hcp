@@ -1,0 +1,1 @@
+#the change in tfstate will always occurs before any interaction, for this reason we are not able to import a resource before the change.
