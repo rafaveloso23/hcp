@@ -1,13 +1,13 @@
 variable "project_name" {
   description = "The name of the project to create"
   type        = string
-  default     = "projetotst"
+  default     = "rvs"
 }
 
 variable "workspace_name" {
   description = "The name of the workspace to create"
   type        = string
-  default     = "tst"
+  default     = "novoworkspace"
 }
 
 variable "organization_name" {
@@ -19,4 +19,10 @@ variable "organization_name" {
 variable "token" {
   description = "The token to authenticate with Terraform Cloud"
   type        = string
+}
+
+variable "variable_set_name" {
+  description = "The token to authenticate with Terraform Cloud"
+  type        = string
+  default     = "vset-velosinho"
 }

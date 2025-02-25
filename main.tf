@@ -3,6 +3,7 @@ module "project" {
 
   organization_name = var.organization_name
   project_name      = var.project_name
+  variable_set_name = var.variable_set_name
 }
 
 

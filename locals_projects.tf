@@ -1,7 +1,7 @@
 # ## GET ALL Projects
 # ###################
 data "tfe_projects" "all" {
-  organization = "veloso"
+  organization = var.organization_name
 }
 
 locals {
