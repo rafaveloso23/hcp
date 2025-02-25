@@ -12,3 +12,4 @@
 .terraform.lock.hcl
 .terraform*
 terraform.tfvars
+modules/tfe-projects/name.md

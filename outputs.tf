@@ -30,3 +30,27 @@ output "all_workspace_id" {
 output "worskpace_id" {
   value = local.worskpace_id
 }
+
+output "project_name" {
+  value = local.project_name
+}
+
+output "locals_project_parts" {
+  value = module.project.locals_project_parts
+}
+
+output "locals_project_domain" {
+  value = module.project.locals_project_domain
+}
+
+output "locals_project_env" {
+  value = module.project.locals_project_env
+}
+
+output "locals_matched_resources" {
+  value = module.project.locals_matched_resources
+}
+
+output "locals_env_values" {
+  value = module.project.locals_env_values
+}

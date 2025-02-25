@@ -1,9 +1,3 @@
-variable "project_name" {
-  description = "The name of the project to create"
-  type        = string
-  default     = "rvs"
-}
-
 variable "workspace_name" {
   description = "The name of the workspace to create"
   type        = string
@@ -21,8 +15,17 @@ variable "token" {
   type        = string
 }
 
-variable "variable_set_name" {
-  description = "The token to authenticate with Terraform Cloud"
-  type        = string
-  default     = "vset-velosinho"
+variable "ambiente" {
+  type    = string
+  default = "dev"
+}
+
+variable "centro_c" {
+  type    = string
+  default = "custoso"
+}
+
+variable "dominio" {
+  type    = string
+  default = "domain1"
 }
