@@ -6,8 +6,8 @@ locals {
   project_parts = split("-", local.project_name)
 
   # Extract the domain and environment
-  project_domain = local.project_parts[2]  # "domain1"
-  project_env    = local.project_parts[3]  # "dev"
+  project_domain = local.project_parts[2]  # "domain"
+  project_env    = local.project_parts[3]  # "env"
 
   # Retrieve the resources for the matched environment and domain
   matched_resources = local.env_values[local.project_env][local.project_domain]
