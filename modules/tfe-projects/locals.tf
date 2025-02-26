@@ -37,6 +37,11 @@ locals {
         subnet          = "snetdevuranus"
         key-vault       = "kvdevuranus"
       }
+      churros = {
+        virtual-network = "vnetdevchurros"
+        subnet          = "snetdevchurros"
+        key-vault       = "kvdevchurros"
+      }
     }
     hml = {
       domain1 = {

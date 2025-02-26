@@ -27,5 +27,5 @@ variable "centro_c" {
 
 variable "dominio" {
   type    = string
-  default = "domain1"
+  default = "churros"
 }
