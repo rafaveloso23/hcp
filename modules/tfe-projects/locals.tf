@@ -1,5 +1,5 @@
 locals {
-  # Example project name: "prj-financeiro-domain1-dev"
+  # Example project name: "prj-custoso-domain1-dev"
   project_name = var.project_name
 
   # Split the project name to extract parts
